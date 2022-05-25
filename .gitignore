@@ -29,7 +29,11 @@ yarn-error.log*
 .env*.local
 .env
 
+# lock files
+.~lock*
+*.lock
+*lock.json
+
 # vercel
 .vercel
-
-.vercel
+/.vercel/
